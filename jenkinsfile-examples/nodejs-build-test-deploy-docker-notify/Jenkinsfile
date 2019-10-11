@@ -25,6 +25,8 @@ THE SOFTWARE.
 */
 
 node {
+  agent {docker 'node:7-alpine'}
+
   currentBuild.result = "SUCCESS"
 
   try {
